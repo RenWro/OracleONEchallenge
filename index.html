@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Desencriptador</title>
+</head>
+
+<body>
+    <header class="header-class">
+        <img class="logo-alura" src="img/aluraLogo.png" alt="Logo da Alura">
+    </header>
+    <main>
+        <section class="sessao">
+            <textarea class="text-area" cols="41" rows="4" placeholder="digite seu texto"></textarea>
+            <p class="aviso"> utilize apenas letras minúsculas e sem acento</p>
+            <div class="btns">
+                <button class="encriptar-btn" onclick="encriptarBtn()">Criptografar</button>
+                <button class="desencriptar-btn" onclick="desencriptarBtn()">Desencriptografar</button>
+            </div>
+        </section>
+        <section class="sessao">
+            <textarea readonly class="mensagem" cols="20" rows="10"></textarea>
+            <button class="copiar-btn" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-class">&copy;RenWro--OracleOne--2024</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
